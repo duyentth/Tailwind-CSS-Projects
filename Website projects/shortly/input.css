@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .hamburger {
+        @apply md:hidden relative transition-all rotate-0 duration-200 w-6 h-6 focus:outline-none;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
+        @apply absolute top-0 left-0 right-0 w-6 h-0.5 border-b-2 border-black;
+    }
+
+    .hamburger-middle {
+        @apply translate-y-2;
+    }
+    .hamburger-bottom {
+        @apply translate-y-4;
+    }
+
+    .open {
+        @apply rotate-90 duration-200;
+    }
+    .open .hamburger-top {
+        @apply rotate-45 translate-y-4;
+    }
+    .open .hamburger-middle {
+        @apply hidden;
+    }
+    .open .hamburger-bottom {
+        @apply -rotate-45;
+    }
+}

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen(lg) {
+  .bg-hero {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
+    @apply absolute rounded-l-full bg-softBlue top-32;
+  }
+  .bg-tabs {
+    width: 2000px;
+    height: 300px;
+    right: 60%;
+    @apply absolute rounded-r-full bg-softBlue top-60;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold lg:text-6xl;
+  }
+
+  h3 {
+    @apply text-4xl font-bold;
+  }
+
+  .hamburger {
+    @apply w-6 h-6 transition duration-300 cursor-pointer translate-y-0;
+  }
+
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    @apply w-6 h-1 absolute top-0 left-0 transition-all duration-300 bg-black;
+  }
+
+  .hamburger-middle {
+    @apply translate-y-1.5;
+  }
+  .hamburger-bottom {
+    @apply translate-y-3;
+  }
+  .open {
+    @apply rotate-90;
+  }
+
+  .open .hamburger-top {
+    @apply transform rotate-45 translate-y-3 bg-white;
+  }
+  .open .hamburger-middle {
+    @apply hidden;
+  }
+  .open .hamburger-bottom {
+    @apply -rotate-45  bg-white;
+  }
+}

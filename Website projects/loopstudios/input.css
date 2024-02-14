@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h2 {
+        @apply uppercase text-4xl;
+    }
+    h5 {
+        @apply absolute uppercase text-white bottom-4 text-2xl w-52 px-6 text-left;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply border-2 border-black text-center px-10 py-3 uppercase font-alata  tracking-widest hover:bg-black hover:text-white;
+    }
+}
+#hero {
+    background-image: url("../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    #hero {
+        background-image: url("../images/mobile/image-hero.jpg");
+        background-position: center;
+    }
+}
+.item-gradient {
+    @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    @apply absolute bg-white top-0 left-0 w-6 h-0.5 rotate-0 transition-all duration-500;
+}
+.hamburger-middle {
+    @apply translate-y-2;
+    /* absolute bg-white top-0 left-0 w-6 h-0.5  rotate-0 transition-all duration-500  */
+}
+.hamburger-bottom {
+    @apply translate-y-4;
+    /* absolute bg-white top-0 left-0 w-6 h-0.5  rotate-0 transition-all duration-500  */
+}
+
+.open {
+    @apply rotate-90;
+}
+.open .hamburger-middle {
+    @apply hidden;
+}
+.open .hamburger-top {
+    @apply rotate-45 translate-y-1.5  translate-x-1.5;
+}
+
+.open .hamburger-bottom {
+    @apply -rotate-45 translate-y-1.5 translate-x-1.5;
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <title>Loopstudios</title>
+    </head>
+    <body>
+        <!-- Hero section -->
+        <section id="hero">
+            <div class="container max-w-6xl mx-auto px-6 py-12">
+                <!-- Logo and menus -->
+                <nav
+                    class="flex justify-between items-center text-white font-bold font-alata"
+                >
+                    <!-- Logo -->
+                    <img src="./images/logo.svg" alt="" />
+                    <!-- Menus -->
+                    <div class="hidden h-10 md:flex md:space-x-8">
+                        <!-- menu 1 -->
+                        <div class="flex flex-col group">
+                            <a href="#">About</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 2 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Careers</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 3 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Event</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 4 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Products</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 5 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Support</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                    </div>
+                    <!-- Hamburger button -->
+                    <div class="md:hidden">
+                        <button
+                            class="md:hidden relative z-40 block w-6 h-6 focus:outline-none cursor-pointer transition-all"
+                            id="menu-button"
+                            type="button"
+                        >
+                            <span class="hamburger-top"></span>
+                            <span class="hamburger-middle"></span>
+                            <span class="hamburger-bottom"></span>
+                        </button>
+                    </div>
+                    <!-- Mobile menus -->
+                    <div
+                        id="mobile-menus"
+                        class="hidden md:hidden w-full flex-col bg-black text-white absolute top-0 left-0 px-12 py-32 space-y-6 font-light"
+                    >
+                        <!-- menu 1 -->
+                        <a
+                            href="#"
+                            class="uppercase hover:text-pink-500 text-xl"
+                            >About</a
+                        >
+                        <!-- menu 2 -->
+                        <a
+                            href="#"
+                            class="uppercase hover:text-pink-500 text-xl"
+                            >Careers</a
+                        >
+                        <!-- menu 3 -->
+                        <a
+                            href="#"
+                            class="uppercase hover:text-pink-500 font-light text-xl"
+                            >Events</a
+                        >
+                        <!-- menu 4 -->
+                        <a
+                            href="#"
+                            class="uppercase hover:text-pink-500 font-light text-xl"
+                            >Products</a
+                        >
+                        <!-- menu 5 -->
+                        <a
+                            href="#"
+                            class="uppercase tracking-wide hover:text-pink-500 font-light text-xl"
+                            >Support</a
+                        >
+                    </div>
+                </nav>
+                <!-- text box-->
+                <div
+                    class="max-w-lg border-white border-2 p-4 uppercase text-white text-4xl my-32 md:text-6xl md:p-10"
+                >
+                    impressive experiences that deliver
+                </div>
+            </div>
+        </section>
+        <!-- Feature section -->
+        <section id="feature">
+            <!-- feature container -->
+            <div
+                class="container relative max-w-6xl flex flex-col mx-auto text-center px-6 py-32 md:flex-row md:px-0"
+            >
+                <div>
+                    <!-- Image -->
+                    <img src="./images/mobile/image-interactive.jpg" alt="" />
+                </div>
+
+                <!-- Text container -->
+                <div
+                    class="bg-white md:text-start md:p-14 md:absolute md:top-80 left-96"
+                >
+                    <h2 class="max-w-lg mt-10 mb-6">
+                        The leader in interactive VR
+                    </h2>
+                    <p class="max-w-md">
+                        Founded in 2011, Loopstudios has been producing
+                        world-class virtual reality projects for some of the
+                        best companies around the globe. Our award-winning
+                        creations have transformed businesses through digital
+                        experiences that bind to their brand.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Creation section -->
+        <section id="creation">
+            <div
+                class="flex flex-col container px-6 py-32 max-w-6xl mx-auto text-center"
+            >
+                <!-- header -->
+                <div
+                    class="flex md:flex-row justify-center md:justify-between mb-20"
+                >
+                    <h2>our creations</h2>
+                    <button class="btn hidden md:block">see all</button>
+                </div>
+                <!-- Items -->
+                <div
+                    class="flex flex-col md:grid md:grid-cols-4 md:gap-8 space-y-6 md:space-y-0"
+                >
+                    <!-- Item 1 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-deep-earth.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-deep-earth.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>deep earth</h5>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-night-arcade.jpg "
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-night-arcade.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>night arcade</h5>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-soccer-team.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-soccer-team.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>soccer team vr</h5>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-grid.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-grid.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>the grid</h5>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-from-above.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-from-above.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>from up aboce vr</h5>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-pocket-borealis.jpg"
+                            alt=""
+                            class="md:hidden"
+                        /><img
+                            src="images/desktop/image-pocket-borealis.jpg"
+                            alt=""
+                            class="hidden md:block"
+                        /><!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>pocket borealis</h5>
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-curiosity.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-curiosity.jpg"
+                            alt=""
+                            class="md:block hidden"
+                        />
+                        <!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+                        <h5>the curiosity</h5>
+                    </div>
+                    <!-- Item 8 -->
+                    <div class="group relative">
+                        <img
+                            src="images/mobile/image-fisheye.jpg"
+                            alt=""
+                            class="md:hidden"
+                        />
+                        <img
+                            src="images/desktop/image-fisheye.jpg"
+                            alt=""
+                            class="md:block hidden"
+                        /><!-- Item Gradient -->
+                        <div class="item-gradient"></div>
+
+                        <h5>make it fisheye</h5>
+                    </div>
+                </div>
+                <!-- Button -->
+                <button class="btn mt-10 md:hidden">see all</button>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer class="bg-black">
+            <!-- footer container -->
+            <div
+                class="flex flex-col max-w-6xl mx-auto px-6 py-12 justify-center md:flex-row md:justify-between"
+            >
+                <!-- Logo and menu container -->
+                <div
+                    class="flex flex-col space-y-8 items-center md:items-start md:space-y-6"
+                >
+                    <img src="images/logo.svg" alt="" />
+                    <!-- Menus container -->
+                    <div
+                        class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-8 text-white font-alata"
+                    >
+                        <!-- menu 1 -->
+                        <div class="flex flex-col group">
+                            <a href="#">About</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-white"
+                            ></div>
+                        </div>
+                        <!-- menu 2 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Careers</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 3 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Event</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 4 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Products</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                        <!-- menu 5 -->
+                        <div class="flex flex-col group">
+                            <a href="#">Support</a>
+                            <div
+                                class="mx-2 group-hover:border-b group:hover:border-blue-50"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- media icon and copy right container -->
+                <div
+                    class="flex flex-col space-y-8 items-center md:items-start md:space-y-8 mt-10 md:mt-0"
+                >
+                    <div class="flex space-x-6 justify-center">
+                        <img src="images/icon-facebook.svg" alt="" />
+                        <img src="images/icon-twitter.svg" alt="" />
+                        <img src="images/icon-pinterest.svg" alt="" />
+                        <img src="images/icon-instagram.svg" alt="" />
+                    </div>
+                    <div class="text-gray-500 font-bold">
+                        &copy; 2002 Loopstudios. All rights Reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            const menuBtn = document.querySelector("#menu-button");
+            const mobileMenus = document.querySelector("#mobile-menus");
+            menuBtn.addEventListener("click", function () {
+                menuBtn.classList.toggle("open");
+                mobileMenus.classList.toggle("hidden");
+                mobileMenus.classList.toggle("flex");
+            });
+        </script>
+    </body>
+</html>

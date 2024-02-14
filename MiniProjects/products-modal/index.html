@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Product-Modal</title>
+    </head>
+    <body>
+        <!-- Global container -->
+        <div class="flex justify-center items-center min-h-screen">
+            <!-- Card container -->
+            <div
+                class="flex flex-col rounded-lg shadow-2xl p-10 space-y-6 md:space-y-0 md:space-x-6 md:flex-row justify-center items-center"
+            >
+                <!--Image container  -->
+                <img
+                    src="./images/headphone.png"
+                    alt=""
+                    class="w-60 object-fit"
+                />
+                <!-- Description container -->
+                <div
+                    class="flex flex-col p-4 space-y-6 justify-center items-center md:items-start text-center"
+                >
+                    <!-- label container -->
+                    <div>
+                        <div
+                            class="flex justify-center items-center bg-black text-white rounded-full px-3 py-1"
+                        >
+                            <span class="text-sm">Free shipping</span>
+                        </div>
+                    </div>
+                    <!-- title container -->
+                    <span class="text-xl"
+                        >Razer Kraken Kitty Edit Gaming Headset Quartz</span
+                    >
+                    <!-- price container -->
+                    <div
+                        class="flex flex-col justify-center items-center md:items-start"
+                    >
+                        <span class="line-through">$700</span>
+                        <span class="text-2xl font-bold">$599</span>
+                        <span class="text-sm font-light"
+                            >This offer is valid until April 3rd or as long as
+                            stock lasts!</span
+                        >
+                    </div>
+                    <!-- button group -->
+                    <div class="group w-full">
+                        <button
+                            class="w-full bg-blue-700 rounded-lg text-white border-b-8 border-b-blue-700 group-hover:border-b-0 group-hover:border-t-8 group-hover:border-t-blue-700 group-hover:shadow-lg transition-all duration-200"
+                        >
+                            <div
+                                class="bg-blue-500 px-5 py-3 rounded-lg group-hover:bg-blue-700"
+                            >
+                                Add to cart
+                            </div>
+                        </button>
+                    </div>
+                    <!-- stock animation -->
+                    <div class="flex items-center justify-center gap-4 group">
+                        <div
+                            class="bg-green-500 rounded-full w-3 h-3 group-hover:animate-ping"
+                        ></div>
+                        <span class="text-sm font-medium">50+ pcs in stock</span>
+                    </div>
+                    <!--bottom button group -->
+                    <div class="flex flex-col md:flex-row gap-4 w-full ">
+                        <div class="flex justify-center items-center text-center gap-3 px-2 py-1 w-full rounded-lg border border-gray-300 hover:-translate-y-0.5">
+                            <img src="./images/weight.png" alt="" class="w-8">
+                            <div class="span text-md">Add to card</div>
+                        </div>
+                        <div class="flex justify-center items-center text-center gap-3 px-2 py-1 w-full rounded-lg border border-gray-300 hover:-translate-y-0.5">
+                            <img src="./images/heart.png" alt="" class="w-8">
+                            <div class="span text-md">Add to wishlist</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
