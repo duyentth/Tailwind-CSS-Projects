@@ -4,7 +4,7 @@ This is a main repo for all website projects that I have created during taking t
 
 ## Table of Content
 
-| #   | Project                                                                                                             | Live Demo     |
+| #   | Project Code                                                                                                            | Live Demo     |
 | --- | ------------------------------------------------------------------------------------------------------------------- | ------------- |
 | 01  | [BookMark](https://github.com/duyentth/Tailwind-CSS-Projects/tree/main/Website%20projects/bookmark)                 | [Live Demo](https://bookmark-ytz5.onrender.com/) |
 | 02  | [Clipboard](https://github.com/duyentth/Tailwind-CSS-Projects/tree/main/Website%20projects/clipboard)               | [Live Demo](https://clipboard-tv80.onrender.com/) |
