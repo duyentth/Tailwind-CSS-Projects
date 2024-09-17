@@ -1,6 +1,6 @@
 # Tailwind CSS Practice Projects
 
-This is a main repo for all website projects that I have created during taking the course Tailwind CSS on Udemy.
+6 responsive websites which are created by using HTML, CSS and JavaScript. Click on links in content table below to open websites and source code page.
 
 ## Table of Content
 
