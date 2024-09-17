@@ -1,6 +1,6 @@
 # Tailwind CSS Practice Projects
 
-6 responsive websites which are created by using HTML, CSS and JavaScript. Click on links in content table below to open websites and source code page.
+6 responsive websites which are created by using HTML, CSS and JavaScript. Click on links in content table below to open websites and source code pages.
 
 ## Table of Content
 
